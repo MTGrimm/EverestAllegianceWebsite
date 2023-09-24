@@ -1,6 +1,10 @@
 .everest__navbar {
     display: flex;
     justify-content: flex-start;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     align-items: center;
     padding: 2rem 6rem;
 }

@@ -28,7 +28,7 @@ const Menu = () => {
 const NavBar = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);
 	return (
-		<div className="everest__navbar">
+		<div className="everest__navbar  gradient__bg">
 			<div className="everest__navbar-links">
 				<div className="everest__navbar-links_logo"></div>
 				<div className="everest__navbar-links_container">

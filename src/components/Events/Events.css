@@ -1,0 +1,52 @@
+.everest__events {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+.everest__events-event {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+    margin: 2rem;
+    padding: 2rem;
+    font-family: var(--font-family);
+}
+
+.everest__events-header {
+    flex: 1;
+    font-family: var(--font-family);
+    padding: 1.5rem 0 1rem 0;
+}
+
+.everest__events-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1
+}
+
+.everest__events-event h2 {
+    font-size: 27px;
+}
+
+.everest__events-event p {
+    font-size: 20px;
+    color: var(--color-subtext);
+}
+
+.everest__events-event img {
+    flex: 1;
+    margin: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.everest__events-event a {
+    color: var(--color-text);
+}

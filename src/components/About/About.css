@@ -1,0 +1,38 @@
+.everest__about {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    background-color: var(--gradient-bg);
+    margin: 5rem;
+    padding: 2rem
+}
+
+.everest__about-heading {
+    flex: 1;
+}
+
+.everest__about-description {
+    flex: 1;
+}
+
+.everest__about-description p {
+    color: #FFF;
+} 
+
+@media screen and (max-width: 1050px) {
+    .everest__about {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .everest__about {
+        margin: 3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .everest__about {
+        margin: 2rem;
+    }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../assets/images/everest.png";
+import transparent_logo from "../../assets/images/everest_transparent_white.png";
 
 const Header = () => {
 	return (
@@ -17,7 +18,7 @@ const Header = () => {
 				</div>
 			</div>
 			<div className="everest__header-image">
-				<img src={logo} alt="logo" />
+				<img src={transparent_logo} alt="logo" />
 			</div>
 		</div>
 	);
