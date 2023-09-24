@@ -1,4 +1,3 @@
-import React from "react";
 import "./Events.css";
 import stock1 from "../../assets/images/stock_dance1.jpg";
 import stock2 from "../../assets/images/stock_dance2.jpg";

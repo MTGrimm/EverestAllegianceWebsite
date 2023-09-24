@@ -1,6 +1,4 @@
-import React from "react";
 import "./Header.css";
-import logo from "../../assets/images/everest.png";
 import transparent_logo from "../../assets/images/everest_transparent_white.png";
 
 const Header = () => {
