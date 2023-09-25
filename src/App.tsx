@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Events from "./components/Events/Events";
+import Members from "./components/Members/Members";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			</div>
 			<About />
 			<Events />
+			<Members />
 		</div>
 	);
 }

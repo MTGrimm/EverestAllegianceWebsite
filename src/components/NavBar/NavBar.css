@@ -92,14 +92,14 @@
 @media screen and (max-width: 700px) {
     .everest__navbar {
         padding: 2rem 4rem;
-        padding-bottom: 0;
+        padding-bottom: 1r;
     }
 }
 
 @media screen and (max-width: 550px) {
     .everest__navbar {
         padding: 2rem;
-        padding-bottom: 0;
+        padding-bottom: 1rem;
     }
     
     .everest__navbar-sign {

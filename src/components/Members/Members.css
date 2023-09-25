@@ -1,0 +1,130 @@
+.everest__members {
+    margin: 5rem;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.everest__members-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 2rem 0 1rem 0;
+}
+
+.everest__members-header h1{
+    flex: 1;
+    font-family: var(--font-family);
+}
+
+.everest__members-member {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem;
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: var(--color-bg);
+}
+
+.everest__members-member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 2rem
+}
+
+.everest__members-member-info h1 {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 40px;
+}
+
+.everest__members-member-info h2 {
+    font-family: var(--font-family);
+    text-align: center;
+    padding: 0 0 2rem 0;
+    color: var(--color-subtext)
+}
+
+.everest__members-member-info p {
+    font-family: var(--font-family);
+    text-align: center;
+    color: var(--color-text);
+}
+
+.everest__members-member-image {
+    align-self: center;
+    flex: 1;
+}
+
+.everest__members-member-image img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1050px) {
+    .everest__members {
+        margin: 4rem;
+    }
+
+    .everest__members-member {
+        margin: 1rem;
+        padding: 0rem 0.7rem;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .everest__members {
+        margin: 3rem;
+        padding: 1.5rem;
+    }
+    
+    .everest__members-member {
+        margin: 1rem;
+        padding: 0rem 0.7rem;
+    }
+
+    .everest__members-member-info h1 {
+        font-size: 32px;
+    }
+    
+    .everest__members-member-info h2 {
+        font-size: 15px;
+    }
+    
+    .everest__members-member-info p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .everest__members {
+        margin: 2rem;
+        padding: 1.2rem;
+    }
+
+    .everest__members-member {
+        margin: 1rem;
+        padding: 0rem 0.7rem;
+    }
+
+    .everest__members-member-info h1 {
+        font-size: 25px;
+    }
+    
+    .everest__members-member-info h2 {
+        font-size: 12px;
+        padding: 0 0 0.8rem 0;
+    }
+    
+    .everest__members-member-info p {
+        font-size: 11px;
+    }
+}

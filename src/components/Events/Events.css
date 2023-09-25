@@ -50,3 +50,41 @@
 .everest__events-event a {
     color: var(--color-text);
 }
+
+@media screen and (max-width: 1050px) {
+    .everest__events {
+        margin: 4rem;
+    }
+
+    .everest__events-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .everest__events {
+        margin: 3rem;
+    }
+
+    .everest__events-container {
+        flex-direction: column;
+    }
+
+    .everest__events-event {
+        margin: 0.6rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .everest__events {
+        margin: 2rem;
+    }
+
+    .everest__events-container {
+        flex-direction: column;
+    }
+
+    .everest__events-event {
+        margin: 0.6rem 1.2rem;
+    }
+}
