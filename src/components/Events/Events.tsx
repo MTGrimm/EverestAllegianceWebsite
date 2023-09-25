@@ -25,7 +25,10 @@ const Event = ({ name, date, src, link, location }: EventProps) => {
 
 const Events = () => {
 	return (
-		<div className="everest__events section__margin gradient__bg">
+		<div
+			id="events"
+			className="everest__events section__margin gradient__bg"
+		>
 			<div className="everest__events-header">
 				<h1 className="gradient__text">Upcoming Events</h1>
 			</div>

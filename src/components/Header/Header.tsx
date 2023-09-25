@@ -3,7 +3,7 @@ import transparent_logo from "../../assets/images/everest_transparent_white.png"
 
 const Header = () => {
 	return (
-		<div className="everest__header section__padding" id="home">
+		<div id="mission" className="everest__header section__padding">
 			<div className="everest__header-content">
 				<h1 className="gradient__text">
 					A nonprofit organization that brings to life the artistic

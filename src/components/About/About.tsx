@@ -2,7 +2,7 @@ import "./About.css";
 
 const About = () => {
 	return (
-		<div className="everest__about section__margin gradient__bg">
+		<div id="about" className="everest__about section__margin gradient__bg">
 			<div className="everest__about-heading">
 				<h1 className="gradient__text">About Us</h1>
 			</div>

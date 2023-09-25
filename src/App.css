@@ -5,9 +5,20 @@
   scroll-behavior: smooth;
 }
 
-  body {
-    background: var(--color-bg);
-  }
+
+body {
+  background: var(--color-bg);
+}
+
+:target {
+  margin: -100px 0 0;
+}
+  
+:target::before {
+  content: "";
+  display: block;
+  height: 100px;
+}
 
 a {
   color: unset;
