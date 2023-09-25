@@ -25,19 +25,39 @@
     padding: 1.5rem 0 1rem 0;
 }
 
+.everest__events-event-container {
+    display: flex;
+    flex-direction: row ;
+}
+
+.everest__events-event-description {
+    padding: 2rem;
+    display: flex;
+    align-self: center;
+    flex: 1;
+}
+
+
+.everest__events-event-description p{
+    color: #FFF;
+    font-size: 20px;
+}
+
 .everest__events-container {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
+    flex-direction: column;
     flex: 1
 }
 
 .everest__events-event h2 {
     font-size: 27px;
+    color: #8b97ac;
 }
 
 .everest__events-event p {
     font-size: 20px;
-    color: var(--color-subtext);
+    color: #697a99;
 }
 
 .everest__events-event img {

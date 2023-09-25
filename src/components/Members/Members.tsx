@@ -6,6 +6,7 @@ import anjil from "../../assets/images/anjil.png";
 import bish from "../../assets/images/bish.png";
 import paranjan from "../../assets/images/paranjan.png";
 import pascal from "../../assets/images/pascal.png";
+import { useState } from "react";
 
 const Members = () => {
 	const members = [
@@ -80,7 +81,7 @@ const Members = () => {
 					{indexType === 1 && generateImg()}
 
 					<div className="everest__members-member-info">
-						<h1 className="gradient__text">{name}</h1>
+						<h1>{name}</h1>
 						<h2>{position}</h2>
 						<p>{description}</p>
 					</div>
