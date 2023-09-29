@@ -63,6 +63,7 @@
 .everest__header-image img{
     width: 90%;
     height: auto;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1050px) {

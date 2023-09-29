@@ -79,6 +79,19 @@
     .everest__events-container {
         flex-direction: column;
     }
+
+    .everest__events-event-container {
+        flex-direction: column;
+    }
+
+    .everest__events-event {
+        margin-bottom: 0;
+    }
+
+    .everest__events-event-description {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 650px) {

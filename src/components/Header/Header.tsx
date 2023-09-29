@@ -1,5 +1,5 @@
 import "./Header.css";
-import transparent_logo from "../../assets/images/everest_transparent_white.png";
+import transparent_logo from "../../assets/images/everest_new_small.png";
 
 const Header = () => {
 	return (
