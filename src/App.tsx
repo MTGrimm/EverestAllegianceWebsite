@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Events from "./components/Events/Events";
 import Members from "./components/Members/Members";
+import Contact from "./components/Contact/Contact";
+// Import the functions you need from the SDKs you need
 
 function App() {
 	return (
@@ -15,6 +17,7 @@ function App() {
 			<About />
 			<Events />
 			<Members />
+			<Contact />
 		</div>
 	);
 }

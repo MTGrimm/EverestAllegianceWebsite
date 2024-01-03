@@ -8,11 +8,7 @@ const Header = () => {
 				<div className="everest__header-image">
 					<img src={transparent_logo} alt="logo" />
 				</div>
-				<h1>
-					A nonprofit organization that brings to life the artistic
-					spirits of today's youth and adults through dance, music,
-					and creativity
-				</h1>
+
 				<div className="everest__header-content__input">
 					<input type="email" placeholder="Your Email Address" />
 					<button type="button">Get Updates</button>

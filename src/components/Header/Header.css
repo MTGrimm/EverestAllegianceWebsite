@@ -13,14 +13,21 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-right: 5rem;
 }
 
 .everest__header-image {
     flex: 2;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.everest__header-image img{
+    flex: 1;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
 }
 
 .everest__header-content__input {
@@ -48,7 +55,7 @@
     flex: 0.6;
     width: 100%;
     min-height: 40px;
-    background-color: #FF5A00;
+    background-color: #146fde;
     border-radius: 0px 5px 5px 0px;
     font-family: var(--font-family);
     font-weight: bold;
@@ -60,11 +67,7 @@
     padding: 0 1rem;
 }
 
-.everest__header-image img{
-    width: 90%;
-    height: auto;
-    margin-bottom: 2rem;
-}
+
 
 @media screen and (max-width: 1050px) {
     .everest__header {
@@ -72,7 +75,7 @@
     }
 
     .everest__header-content {
-        margin: 0 0 3rem
+        margin: 0 0 1rem
     }
 }
 .everest__header-content h1{
@@ -90,7 +93,7 @@
     }
 
     .everest__header-content {
-        margin: 0 0 3rem
+        margin: 0 0 1rem
     }
 
     .everest__header-content h1{
@@ -108,7 +111,7 @@
     }
 
     .everest__header-content {
-        margin: 0 0 2rem
+        margin: 0 0 0rem
     }
 
     .everest__header-content h1{
