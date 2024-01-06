@@ -82,7 +82,7 @@ Thank you for visiting, and I look forward to our journey ahead.
 	];
 
 	const generateMembers = () => {
-		return members.map(({ name, position, description, src }, index) => {
+		return members.map(({ name, position, /*description,*/ src }, index) => {
 			const generateImg = () => {
 				return (
 					<div className="everest__members-member-image">
