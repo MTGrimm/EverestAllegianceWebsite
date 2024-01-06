@@ -13,16 +13,17 @@ const Header = () => {
             formData.append('email', email);
             
             try {
-                const response = await fetch("http://localhost:8080/newEmail", {
+                await fetch("http://localhost:8080/newEmail", {
                     method: "POST",
                     body: formData,
+                })
+                .then(response => response.text())
+                .then(data => {
+                    console.log("Message from go: ", data);
+                })
+                .catch(error => {
+                    console.log("Error:", error);
                 });
-
-                if (response.ok) {
-                    console.log("email added");
-                } else {
-                    console.log("failed");
-                }
             } catch (error) {
                 console.log("error occurred: ", error);
             }

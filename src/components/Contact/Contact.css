@@ -1,9 +1,11 @@
 .everest__contacts {
     flex: 1;
     display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    background-color: aqua;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 0 0rem;
+    padding: 0 0rem;
+    background-color: rgb(10, 10, 15);
     justify-content: center;
     align-items: center;
 }
@@ -12,7 +14,6 @@
     flex: 1;
     display: flex;
     flex-direction: row;   
-    background-color: aliceblue;
     margin: 0 1rem;
     justify-content: center;
     align-items: center;
@@ -20,6 +21,9 @@
 
 .everest__contacts-field {
     flex: 1;
+    padding: 0;
+    margin: 0;
+    color: rgb(200, 210, 210);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,6 +33,7 @@
 .everest__contacts-field img{
     flex: 1;
     max-height: 2rem;
+    margin-bottom: 0.5rem;
     max-width: fit-content;
 }
 

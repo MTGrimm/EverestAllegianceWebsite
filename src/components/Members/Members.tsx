@@ -28,13 +28,13 @@ Thank you for visiting, and I look forward to our journey ahead.
 		},
 		{
 			name: "Aryan Timilsina",
-			position: "Head of Communications",
+			position: "Head of Technology",
 			description: "",
 			src: aryan,
 		},
 		{
 			name: "Aayush Pandey",
-			position: "Head of Technology",
+			position: "Head of Communication",
 			description: `Hello there! I'm Aayush Pandey, a 21-year-old engineering student
 			 with a love for problem-solving and innovation. Engineering, I believe, is a 
 			 method of thinking that can alter the world for the better, not merely a topic
@@ -103,7 +103,7 @@ Thank you for visiting, and I look forward to our journey ahead.
 					<div className="everest__members-member-info">
 						<h1>{name}</h1>
 						<h2>{position}</h2>
-						<p>{description}</p>
+                        {/*<p>{description}</p>*/}
 					</div>
 					{indexType === 0 && generateImg()}
 				</div>
