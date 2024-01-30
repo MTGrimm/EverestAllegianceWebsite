@@ -8,9 +8,11 @@
 
   --gradient-text: #dce2ea;
   
-  --color-bg: #040C18;
+  --color-bg: #03051a;
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
+  --color-bgwhite: #FFFEEE;
+  --color-bgdark: #03051a;
 }

@@ -6,19 +6,19 @@ const Menu = () => {
 	return (
 		<>
 			<p>
-				<a href="#mission">Mission</a>
+				<a href="/mission">Mission</a>
 			</p>
 			<p>
-				<a href="#about">About</a>
+				<a href="/about">About</a>
 			</p>
 			<p>
-				<a href="#events">Events</a>
+				<a href="/events">Events</a>
 			</p>
 			<p>
-				<a href="#members">Members</a>
+				<a href="/members">Members</a>
 			</p>
 			<p>
-				<a href="#contact us">Contact Us</a>
+				<a href="/contacts">Contact Us</a>
 			</p>
 		</>
 	);

@@ -1,37 +1,31 @@
 import "./About.css";
+import NavBar from "./../NavBar/NavBar";
+import Header from "./../Header/Header";
 
 const About = () => {
 	return (
-		<div id="about" className="everest__about section__margin gradient__bg">
-			<div className="everest__about-heading">
-				<h1 className="gradient__text">About Us</h1>
-			</div>
-			<div className="everest__about-description">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Suspendisse ut metus maximus, rhoncus leo ac, finibus
-					tellus. Ut et nisl at ex venenatis fermentum ac finibus
-					quam. Phasellus auctor dictum augue non feugiat. Curabitur a
-					diam in dolor tincidunt egestas eget vel nisi. Vestibulum
-					imperdiet nulla sed dictum lacinia. Duis non consectetur
-					risus, sed scelerisque orci. Ut tempus nec ex quis pulvinar.
-				</p>
-				<br />
-				<p>
-					Morbi in ullamcorper orci. Sed scelerisque dictum urna ac
-					porta. Vestibulum aliquam ex turpis, vulputate laoreet magna
-					feugiat hendrerit. Vivamus a suscipit libero. Aliquam id est
-					a leo luctus ultrices vitae et neque. Aliquam eu fringilla
-					risus, ac venenatis mauris. Donec fermentum maximus risus et
-					commodo. Vivamus lobortis fringilla convallis. Etiam a
-					sapien nulla. Nulla tincidunt orci tempus tortor hendrerit
-					mattis. Phasellus a turpis viverra, dapibus erat in, blandit
-					quam. Praesent pretium ex vel ex feugiat tempus. Vivamus ut
-					tellus luctus, finibus neque id, bibendum nulla. Nunc
-					iaculis sed felis at aliquet.
-				</p>
-			</div>
-		</div>
+        <div className="containerDiv">
+            <NavBar/>
+            <Header/>
+            <div id="about" className="everest__about section__margin">
+                <div className="everest__about-heading">
+                    <h1 className="gradient__text">About Us</h1>
+                </div>
+                <div className="everest__about-description">
+                    <p>
+                        Welcome to Everest Allegiance, a dynamic non-profit organization founded by Arju Baniya,
+                        headed by today's youth representing a wide range of ages, races, occupations, and academic
+                        backgrounds. In collaboration with Action for Healthy Communities, we are committed to fostering
+                        positive change in our community. As a young and vibrant group, Everest Allegiance is driven by
+                        the passion and dedication of its members, united in the pursuit of a healthier and more
+                        prosperous future. Our Mission is to inspire transformative initiatives that leave a lasting impact
+                        on the well-being of individuals and the community at large. Join us on our journey as we strive
+                        to make a difference and create a legacy of positive change. Together, we can reach
+                        new heights and build a stronger, healthier tomorrow!
+                    </p>
+                </div>
+            </div>
+        </div>
 	);
 };
 

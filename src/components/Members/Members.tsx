@@ -1,4 +1,5 @@
 import "./Members.css";
+import NavBar from "./../NavBar/NavBar";
 import arju from "../../assets/images/arju.png";
 import sushant from "../../assets/images/sushant.png";
 import aryan from "../../assets/images/aryan.png";
@@ -112,15 +113,18 @@ Thank you for visiting, and I look forward to our journey ahead.
 	};
 
 	return (
-		<div
-			id="members"
-			className="everest__members gradient__bg section__padding"
-		>
-			<div className="everest__members-header">
-				<h1 className="gradient__text">Members</h1>
-			</div>
-			{generateMembers()}
-		</div>
+        <div>
+            <NavBar/>
+            <div
+                id="members"
+                className="everest__members gradient__bg section__padding"
+            >
+                <div className="everest__members-header">
+                    <h1 className="gradient__text">Members</h1>
+                </div>
+                {generateMembers()}
+            </div>
+        </div>
 	);
 };
 
