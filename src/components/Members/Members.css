@@ -1,9 +1,17 @@
+.bigcont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-darkdarkgrey);
+}
 .everest__members {
     margin: 5rem;
     padding: 2rem 4rem;
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color: var(--color-darkgrey);
 }
 
 .everest__members-header {
@@ -19,6 +27,7 @@
     flex: 1;
     font-size: 45px;
     font-family: var(--font-family);
+    color: var(--gradient-text);
 }
 
 .everest__members-member {
@@ -29,7 +38,11 @@
     justify-content: center;
     margin: 1.5rem;
     padding: 2rem 1rem 2rem 1rem;
-    background-color: var(--color-bg);
+    background-color: var(--color-lightdarkgrey);
+}
+
+.center-align {
+    padding: 2rem 5rem;
 }
 
 .left-align {

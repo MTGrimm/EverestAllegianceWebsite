@@ -7,7 +7,13 @@
 
 
 body {
-  background: var(--color-bg);
+  background: var(--color-darkdarkgrey);
+  font-family: var(--font-family);
+}
+
+.appContainer {
+  display: flex;
+  height: 100vh;
 }
 
 .img_div {

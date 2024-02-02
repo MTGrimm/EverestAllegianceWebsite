@@ -13,6 +13,12 @@
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
-  --color-bgwhite: #FFFEEE;
+  --color-bgwhite: #EEEEEE;
   --color-bgdark: #03051a;
+  --color-bgpurewhite: #FFFFFF;
+  --color-bggrey: #F4F4F4;
+  --color-lightdarkgrey: #313131;
+  --color-darkgrey: #252525;
+  --color-darkdarkgrey: #181818;
+  --color-nav: #C0CCCC;
 }
