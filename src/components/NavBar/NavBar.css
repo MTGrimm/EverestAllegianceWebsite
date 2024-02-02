@@ -1,12 +1,22 @@
 .everest__navbar {
     display: flex;
     justify-content: flex-start;
-    position: fixed;
+    /*position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
+    */
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 1.5rem 6rem;
+    z-index: 2;
+}
+
+.dark {
+    background-color: #08b4a4;
+}
+
+.dark a {
+    color: var(--gradient-text);
 }
 
 .everest__navbar-links {
@@ -44,7 +54,6 @@
 
 .everest__navbar-menu {
     margin-left: 1rem;
-    
     display: none;
     position: relative;
 }
@@ -60,12 +69,11 @@
     flex-direction: column;
 
     text-align: end;
-    background: var(--color-footer);
+    background: var(--color-bgwhite);
     padding: 2rem;
     position: absolute;
-    top: 40px;
-    right: 0;
-    margin-top: 1rem;
+    top: 3rem;
+    right: -1rem;
     min-width: 210px;
     border-radius: 5px;
     box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
@@ -73,6 +81,11 @@
 
 .everest__navbar-menu_container p {
     margin: 1rem 0;
+    color: var(--color-darkgrey);
+}
+
+.dark {
+    background-color: #08b4a4;
 }
 
 @media screen and (max-width: 1050px) {

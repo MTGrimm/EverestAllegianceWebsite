@@ -1,23 +1,23 @@
 import "./App.css";
-import NavBar from "./components/NavBar/NavBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import About from "./components/About/About";
 import Events from "./components/Events/Events";
 import Members from "./components/Members/Members";
 import Contact from "./components/Contact/Contact";
-// Import the functions you need from the SDKs you need
+import AboutNew from "./components/AboutNew/AboutNew";
 
 function App() {
 	return (
 		<div className="appContainer">
-			<div className="img_div">
-				<NavBar />
-				<Header />
-			</div>
-			<About />
-			<Events />
-			<Members />
-			<Contact />
+			<BrowserRouter>
+				<Routes>
+					<Route index element={<Header />} />
+					<Route path="/about" element={<AboutNew />} />
+					<Route path="/events" element={<Events />} />
+					<Route path="/members" element={<Members />} />
+					<Route path="/registration" element={<Contact />} />
+				</Routes>
+			</BrowserRouter>
 		</div>
 	);
 }

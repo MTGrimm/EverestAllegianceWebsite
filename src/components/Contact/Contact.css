@@ -1,17 +1,63 @@
 .everest__contacts {
     flex: 1;
     display: flex;
+    flex-direction: column;
     padding-left: 4rem;
     padding-right: 4rem;
     margin: 0 0rem;
     padding: 0 0rem;
     background-color: rgb(10, 10, 15);
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
-.everest__contacts-socials {
+.bodyDiv {
+    display: flex;
     flex: 1;
+    flex-direction: row;
+    height: 100%;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: var(--color-darkgrey);
+    color: var(--color-bgpurewhite);
+}
+
+.contactInfo h1 {
+    font-size: 4rem;
+}
+
+.formDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.formSelectionDiv {
+    display: flex;
+    align-self: center;
+}
+
+.formContainer {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.formContainer iframe {
+    flex: 1;
+    background-color: var(--color-darkgrey);
+    border: none;
+}
+
+
+
+.everest__contacts-socials {
     display: flex;
     flex-direction: row;   
     margin: 0 1rem;

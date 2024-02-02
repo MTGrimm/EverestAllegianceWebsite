@@ -1,0 +1,139 @@
+.bigcont {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.mainDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-bgpurewhite);
+}
+
+.leftDiv {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bggrey);
+    padding: 3rem 2rem;
+    justify-content: center;
+}
+
+.leftDivImage {
+    flex: 2;
+    display: flex;
+    margin: 1rem;
+    /*background-color: aquamarine;*/
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.leftDivImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.leftDivText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.leftDivText h1 p {
+    flex: 1;
+}
+
+.socialDiv {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.socialDivSocial {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialDivSocial img {
+    max-width: fit-content;
+    max-height: 2rem;
+    object-fit: contain;
+}
+
+.rightDiv {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3rem 0rem 3rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.rightDivText {
+    flex: 1;
+}
+
+.rightDivText h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.rightDivText p {
+    font-size: 1.2rem;
+}
+
+.buttonsDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .bigcont {
+        flex-direction: column;
+    }
+
+    .mainDiv {
+        flex-direction: column;
+    }
+
+    .socialDiv {
+        margin: 1rem;
+    }
+
+    .rightDiv {
+        margin-bottom: 1rem;
+    }
+
+    .rightDivText p {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .socialDiv {
+        margin-top: 1rem;
+    }
+
+    .rightDiv {
+        margin-bottom: 1rem;
+    }
+
+    .rightDivText h1 {
+        font-size: 3rem;
+    }
+
+    .rightDivText p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+}
